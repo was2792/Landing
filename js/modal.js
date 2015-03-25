@@ -36,6 +36,10 @@
 		$('#myModal .modal-title').html('Assignment 8: MVC');
 		$('#myModal .modal-body').html('In this assignment we created a basic MVC project form a tutorial and posted our repo on github!');
 		$('#myModal').modal('show')});
+	$('#assignment9').click(function(){
+		$('#myModal .modal-title').html('Assignment 9: MVC Hot Dog Lovers');
+		$('#myModal .modal-body').html('In this assignment we created a basic MVC project that creates profiles for people who love hot dogs.  My app has a home page, an about page, a contact page,  and also a place to create a hot  dog lover profile edit a profile or you can also delete an existing profile.  After that you can click details of the entry and see your information displayed in a template along with an awesome picture!');
+		$('#myModal').modal('show')});
 
 $('#myModal').on('hidden.bs.modal', function () {
  
